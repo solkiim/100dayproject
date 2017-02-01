@@ -30,6 +30,7 @@ h1 {
 	font-family: 'Montserrat-SemiBold';
 	letter-spacing: 4px;
 	margin: 50px auto 10px auto;
+	font-size: 36px;
 }
 
 h4 {
@@ -37,6 +38,17 @@ h4 {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	margin: 10px auto 40px auto;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 434px) {
+    h1 {
+		font-size: 30px;
+    }
+	
+	h4 {
+		font-size: 15px;
+    }
 }
 
 #gifs .col-sm-3 {
