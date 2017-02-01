@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var gifcount = 2;
+	var gifcount = 3;
 
 	// add rows to display
 	for (var i = 1; i <= 100; i += 4) {
